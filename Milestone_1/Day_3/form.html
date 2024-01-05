@@ -19,7 +19,6 @@
     <main class="main">
       <h3>Contact us</h3>
 
-      <p>Please write to us.</p>
       <form class="form-container" action="">
         <label class="info-container" for="name"
           >Your name: <input type="text" placeholder="Name"
@@ -28,6 +27,43 @@
         <label class="info-container" for="email"
           >Your email: <input type="text" placeholder="Email"
         /></label>
+        <label class="info-container" for="phone"
+          >Your Phone: <input type="text" placeholder="Phone"
+        /></label>
+        <br /><br />
+        <!-- questions  -->
+        <fieldset class="questions">
+          <legend>What is your favorite programming language?</legend>
+          <label for="fav-lang"> <input type="radio" id="css" />CSS </label>
+
+          <label for="fav-lang"> <input type="radio" id="html" />HTML </label>
+
+          <label for="fav-lang">
+            <input type="radio" id="javascript" />JavaScript
+          </label>
+
+          <label for="fav-lang">
+            <input type="radio" id="python" />Python
+          </label>
+        </fieldset>
+        <br />
+        <fieldset class="questions">
+          <legend>Your work-place preference-</legend>
+          <label for="work-place">
+            <input type="checkbox" id="remote" />Remote
+          </label>
+
+          <label for="work-place">
+            <input type="checkbox" id="in-person" />In-person
+          </label>
+
+          <label for="work-place">
+            <input type="checkbox" id="hybrid" />Hybrid
+          </label>
+        </fieldset>
+
+        <br /><br />
+        <p>Please give us any other feedback you have.</p>
         <label class="info-container" for="message">
           Your message:
           <textarea
@@ -36,6 +72,10 @@
             placeholder="Your message"
           ></textarea>
         </label>
+        <br />
+        <input type="reset" value="Reset" />
+
+        <input type="submit" value="Submit" />
       </form>
     </main>
 

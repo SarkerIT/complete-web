@@ -24,6 +24,10 @@ body {
   background: linear-gradient(to right, rgb(171, 247, 222), rgb(203, 167, 236));
 }
 
+label {
+  display: block;
+}
+
 .info-container {
   display: block;
   margin-top: 20px;
@@ -34,9 +38,19 @@ body {
   width: 300px;
 }
 
+.questions {
+  /* padding: 20px; */
+  gap: 10px;
+  border: 0;
+}
+
 .footer {
   margin: 40px;
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+#python {
+  padding: 10px;
 }
