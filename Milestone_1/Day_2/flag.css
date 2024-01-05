@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+
+.flag-div {
+  height: 100vh;
+}
+
+.green {
+  height: 300px;
+  width: 600px;
+  background-color: green;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.red {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.flag-handle {
+  height: 250px;
+  width: 30px;
+  background-color: blue;
+  position: relative;
+  top: 100%;
+}
+.flag-pole-post {
+  width: 60px;
+  height: 35px;
+  background-color: black;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%);
+}

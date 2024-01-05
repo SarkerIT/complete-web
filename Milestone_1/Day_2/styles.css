@@ -1,0 +1,44 @@
+.secondDay {
+  color: blue;
+  font-family: Tahoma, sans-serif;
+  background-image: url("tiger-6387491_640.png");
+  height: 400px;
+  width: 400px;
+  justify-content: center;
+
+  border-radius: 8px;
+  box-shadow: 5px 10px red;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-position: 50% 50%;
+  background-size: 250px;
+  background-color: yellow;
+  margin: auto;
+  text-decoration-line: underline;
+  position: sticky;
+  top: 0;
+}
+
+.firstBlog {
+  background-color: cornsilk;
+}
+
+abbr {
+  color: blue;
+  /* font-size: large; */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+abbr[title] {
+  border-bottom: none !important;
+  cursor: inherit !important;
+  text-decoration: none;
+}
+
+abbr {
+  color: blue;
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: none;
+}
