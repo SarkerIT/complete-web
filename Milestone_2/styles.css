@@ -1,0 +1,22 @@
+.grid-practice {
+  border: 1px solid salmon;
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 5px;
+  border: 2px solid blue;
+  padding: 5px;
+}
+
+.box {
+  border: 2px solid red;
+  background-color: aquamarine;
+  width: 80%;
+  height: 400px;
+}
+
+@media screen and (max-width: 450px) {
+  .box {
+    width: 100%;
+    border: 3px solid blue;
+  }
+}
