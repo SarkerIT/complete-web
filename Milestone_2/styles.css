@@ -1,22 +1,39 @@
+.nav-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-left-menu {
+  display: flex;
+  gap: 30px;
+}
 .grid-practice {
   border: 1px solid salmon;
   display: flex;
-  /* flex-wrap: wrap; */
-  gap: 5px;
+  flex-wrap: wrap;
+
+  gap: 10px;
   border: 2px solid blue;
   padding: 5px;
 }
 
 .box {
-  border: 2px solid red;
+  border: 1px solid red;
   background-color: aquamarine;
-  width: 80%;
-  height: 400px;
+  width: 400px;
+  height: 100px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 576px) {
+  .grid-practice {
+    flex-direction: column;
+  }
   .box {
-    width: 100%;
-    border: 3px solid blue;
+    background-color: yellow;
+    border: 5px solid blue;
+    /* width: 500px;
+    height: 200px; */
+
+    background-color: tomato;
   }
 }
