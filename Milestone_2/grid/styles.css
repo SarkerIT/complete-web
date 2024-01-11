@@ -1,0 +1,18 @@
+/* * {
+  background-color: aqua;
+} */
+.container {
+  display: grid;
+  /* grid-template-columns: 200px 200px 500px; */
+  /* grid-template-columns: repeat(2, 300px) 500px;*/
+
+  /* grid-template-columns: repeat(2, 1fr) 2fr; */
+  grid-template-columns: 200px 200px 500px;
+
+  justify-content: space-around;
+
+  /* row-gap: 20px; */
+}
+.items {
+  border: 1px solid red;
+}
