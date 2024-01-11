@@ -7,11 +7,19 @@
   display: flex;
   gap: 30px;
 }
-.grid-practice {
+.flex-practice-container {
+  display: flex;
+  border: 5px solid dodgerblue;
+  justify-content: center;
+  padding: 10px;
+}
+.flex-practice-sub-container {
   border: 1px solid salmon;
   display: flex;
   flex-wrap: wrap;
-
+  width: 80%;
+  align-items: center;
+  justify-content: center;
   gap: 10px;
   border: 2px solid blue;
   padding: 5px;
@@ -22,18 +30,23 @@
   background-color: aquamarine;
   width: 400px;
   height: 100px;
+  text-align: center;
 }
 
 @media screen and (max-width: 576px) {
-  .grid-practice {
+  .flex-practice-container {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .box {
+    border: 5px solid red;
     background-color: yellow;
-    border: 5px solid blue;
-    /* width: 500px;
-    height: 200px; */
-
-    background-color: tomato;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 }
