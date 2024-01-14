@@ -1,0 +1,7 @@
+1. Use "Viewpoint Meta Tag"
+2. Use CSS Relative Units (%), em, rem NOT numbers (px)
+3. Use Body max width and horizontal center alignment 
+4. Make images fluid 
+5. For two columns use flex and with media query make column direction column
+6. For multi column: use grid 
+7. To make "Menu" Responsive use JavaScript.

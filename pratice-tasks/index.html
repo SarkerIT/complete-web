@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      body {
+        max-width: 1420px;
+      }
+
+      .task-1-1 {
+        height: 80vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+      }
+
+      .task-1-1 div {
+        border-radius: 10px;
+        border: 2px solid blue;
+        background-color: hsl(160, 100%, 75%, 30%);
+      }
+      .menu,
+      .left,
+      .right {
+        font-size: 2rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: tomato;
+      }
+      /* small screen  */
+      @media screen and (max-width: 576px) {
+        .task-1-1 {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          max-width: 100%;
+        }
+
+        .task-1-1 div {
+          background-color: hsl(300, 100%, 25%, 20%);
+          border: 2px solid yellow;
+        }
+      }
+
+      /* medium device */
+      @media screen and (min-width: 576px) and (max-width: 992px) {
+        .task-1-1 {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          max-width: 100%;
+        }
+        .task-1-1 div {
+          background-color: hsla(97, 74%, 76%, 0.2);
+          border: 2px solid red;
+        }
+      }
+    </style>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="task-1-1">
+      <div class="menu">Menu content</div>
+      <div class="left">Left content</div>
+      <div class="right">Right content</div>
+      <!-- <div class="menu">Menu content</div>
+      <div class="left">Left content</div>
+      <div class="right">Right content</div> -->
+    </section>
+  </body>
+</html>
